@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Leahs-MACPRO-2.local" name="com.flatironschool.javacs.TermCounterTest" skipped="0" tests="1" time="0.368" timestamp="2016-06-09T23:29:35">
+<testsuite errors="0" failures="0" hostname="Leahs-MACPRO-2.local" name="com.flatironschool.javacs.TermCounterTest" skipped="0" tests="1" time="0.365" timestamp="2016-06-09T23:48:12">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.VISUAL" value="subl -w" />
@@ -18,7 +18,6 @@
     <property name="ant.home" value="/usr/local/Cellar/ant/1.9.7/libexec" />
     <property name="java.runtime.version" value="1.8.0_40-b27" />
     <property name="env.MY_RUBY_HOME" value="/Users/johndoe/.rvm/rubies/ruby-2.2.3" />
-    <property name="env.JAVA_MAIN_CLASS_4047" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.piW6sDZgFM/Render" />
     <property name="env.rvm_version" value="1.26.11 (master)" />
     <property name="user.name" value="johndoe" />
@@ -81,8 +80,8 @@
     <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.TermCounterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/junit/TEST-com.flatironschool.javacs.TermCounterTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/junitvmwatcher8304727908062767740.properties propsfile=/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/junit4487070485171631700.properties" />
     <property name="java.class.path" value="/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/bin:/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/jsoup-1.8.3.jar:/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/junit-4.12.jar:/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.TermCounterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/junit/TEST-com.flatironschool.javacs.TermCounterTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/junitvmwatcher2045010274116459311.properties propsfile=/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU/javacs-lab06/junit2087212109304500133.properties" />
     <property name="env.TERM_SESSION_ID" value="92733A60-4A61-4F53-9767-4BC069874252" />
     <property name="env.USR_PATHS" value="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin" />
     <property name="ant.file.type.JavaCS" value="file" />
@@ -101,6 +100,7 @@
     <property name="java.ext.dirs" value="/Users/johndoe/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
     <property name="env.DBUS_LAUNCHD_SESSION_BUS_SOCKET" value="/private/tmp/com.apple.launchd.953rnp3bDN/unix_domain_listener" />
     <property name="user.dir" value="/Users/johndoe/Development/code/cs-making-an-indexer-lab-codeU" />
+    <property name="env.JAVA_MAIN_CLASS_4458" value="org.apache.tools.ant.launch.Launcher" />
     <property name="line.separator" value="&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="env.EDITOR" value="subl -w" />
@@ -114,7 +114,7 @@
     <property name="ant.project.invoked-targets" value="test" />
     <property name="env.FLATIRON_VERSION" value="1.1.1" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.TermCounterTest" name="testSize" time="0.318" />
+  <testcase classname="com.flatironschool.javacs.TermCounterTest" name="testSize" time="0.316" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
